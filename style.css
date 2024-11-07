@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cormorant Garamond", serif;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-image: url("./images/background\ weather.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+     
+   
+
+
+}
+
+.container {
+    margin: 30px;
+    border: 1px solid bisque;
+    opacity: 0.9;
+    margin-bottom: 6px;
+    width: 450px;
+    background-color:transparent;
+        color: white;
+    padding: 30px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    text-align: center;
+}
+h3 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#08d489, #12a8d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.search {
+    
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    margin-top: 12px;
+    border: 0;
+    outline: 0;
+    padding: 12px 22px;
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(233, 240, 240);
+    color: black;
+}
+
+.search button {
+    margin-top: 12px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(233, 240, 240);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+.search button img {
+    width: 28px;
+}
+
+.weather .icon {
+    margin-top: 20px;
+    width: 170px;
+}
+
+.weather h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+
+
+
+.humidity, .wind{
+    font-size: 20px;
+}
+.error{
+    text-align:left;
+    font-weight: 900;
+    color:red;
+    margin-top: 5px;
+    margin-left: 5px;
+
+    display: none;
+}
